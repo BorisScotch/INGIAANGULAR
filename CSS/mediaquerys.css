@@ -1,0 +1,327 @@
+/*  DE MÁS CHICO A MÁS GRANDE  */
+
+@media (min-width: 0px) {/* 0 PX A 319 PX */
+    .container-big {
+    width: 98%;
+  }
+.container {
+  width: 95%;
+}
+  .home-item-center {
+  height: 105px !important;
+  width: 150px !important;
+  }
+  .home-item {
+  height: 105px !important;
+  width: 150px !important;
+  }
+}
+
+  /* iPhone 5 */
+@media (min-width: 320px) { /* 320 PX A 414 PX */
+  .home-item-center {
+  height: 210px !important;
+  width: 300px !important;
+  }
+  .home-item {
+  height: 210px !important;
+  width: 300px !important;
+  }
+  .container-big {
+    width: 98%;
+  }
+.container {
+  width: 95%;
+}
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active {
+    width: 100%;
+  }
+}
+
+  /* iPhone 6+ */
+@media (min-width: 414px) { /* 414 PX A 599 PX */
+    .home-item-center {
+  height: 198px !important;
+  width: 330px !important;
+  }
+  .home-item {
+  height: 198px !important;
+  width: 330px !important;
+  }
+  .home-item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.container-big {
+    width: 98%;
+  }
+.container {
+  width: 95%;
+}
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active  {
+    width: 100%;
+  }
+}
+/* Intermedio entre iPhone 6+ y iPad Air */
+@media (min-width: 600px) { /* 600 PX A 766 PX */
+    .home-item-center {
+  height: 288px !important;
+  width: 480px !important;
+  }
+  .home-item {
+  height: 288px !important;
+  width: 480px !important;
+  }
+  .home-item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.container-big {
+    width: 98%;
+  }
+.container {
+  width: 95%;
+}
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active  {
+    width: 100%;
+  }
+}
+/* iPad Air */
+@media (min-width: 767px) {  /* 767 PX A 991 PX */
+    .container-big {
+    width: 98%;
+  }
+  .home-item-center {
+  height: 330px !important;
+  width: 550px !important;
+  }
+  .home-item {
+  height: 330px !important;
+  width: 550px !important;
+  }
+  .home-item img {
+  width: 550px;
+  height: 330px;
+  max-height: 330px;
+  max-width: 550px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu.navbar-transparency>li>a {
+  color: rgb(56, 76, 95);
+}
+.container {
+  width: 95%;
+}
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active  {
+    width: 100%;
+  }
+}
+/* Bootstrap Breakpoint */
+@media (min-width: 992px) { /* 992 PX A 1080 PX */
+    .container-big {
+
+    width: 970px;
+  }
+    .home-item-center {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .container {
+    width:970px;
+  }
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active  {
+    width: 100%;
+  }
+}
+/* Intermedio entre 992 y 1080 */
+@media (min-width: 1080px) { /* 1080 PX A 1280 PX */
+  .container-big {
+    width: 1030px;
+  }
+  .home-item-center {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item {
+  height: 162px !important;
+  width: 270px !important;
+  }
+  .home-item img {
+  max-width: 270px;
+}
+.circulos .carousel-indicators li,
+.circulos .carousel-indicators li.active  {
+    width: 33.33333333333%;
+  }
+
+}
+/* HD */
+@media (min-width: 1280px) { /* 1280 PX A 1500 PX */
+  .container-big {
+    width: 1230px;
+  }
+  .home-item-center {
+  height: 201px !important;
+  width: 335px !important;
+  }
+  .home-item {
+   height: 201px !important;
+  width: 335px !important;
+  }
+  .home-item img {
+  max-width: 335px;
+}
+  .container {
+    width:1170px;
+  }
+}
+
+/* Intermedio entre 1500 y Full HD */
+@media (min-width: 1500px) {
+.container-big {
+    width: 1480px;
+  }
+    .home-item-center {
+  height: 234px !important;
+  width: 390px !important;
+  }
+  .home-item {
+  height: 234px !important;
+  width: 390px !important;
+  }
+    .home-item img {
+  height: 234px !important;
+  width: 390px !important;
+  max-height: 234px;
+  max-width: 390px;
+}
+}
+ /* FULL HD */ 
+@media (min-width: 1904px) {
+  .container-big {
+    width: 1900px;
+  }
+  .home-item-center {
+    height: 350px !important;
+    width: 500px !important;
+}
+.home-item {
+  margin: 0 auto;
+  overflow: hidden; 
+  height: 350px !important;
+  width: 500px !important;
+  position: relative;
+   border: 3px solid rgb(86, 101, 115  );
+   border-radius: 4px;
+   margin: 2%;
+}
+.home-item img {
+    
+  height: 350px !important;
+  width: 500px !important;
+  max-height: 350px;
+  max-width: 500px;
+}
+}
+
+ /* 4k */
+@media (min-width: 3840px) {
+    .container-big {
+    width: 3830px;
+  }  
+  .container {
+    width: 2500px;
+  }
+    .home-item-center {
+    height: 705px !important;
+    width: 1008px !important;
+}
+.home-item {
+   height: 705px !important;
+    width: 1008px !important;
+}
+.home-item img {
+  height: 705px !important;
+    width: 1008px !important;
+    max-height: 705px;
+  max-width: 1008px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+  .responsive-tabs-container.accordion-xs .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-xs .accordion-link {
+    display: block;
+  }
+  .navbar-default.navbar-transparency,
+    .navbar-transparency {
+      background-color: rgb(56, 76, 95);
+      border-color: #fff;
+      background-color: rgb(146,146,146);
+      background-color: rgba(146,146,146,0.7);
+    }
+    .navbar {
+      background-color: #fff ;
+    }
+    /* Hide navbar on scroll down show again on scroll up */
+
+    body {
+        padding-top: 40px;
+    }
+
+    nav {
+      transition: top 0.2s ease-in-out;    
+    }
+
+    .nav-up {
+        top: -48px;
+    }
+
+
+ 
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-tabs-container.accordion-sm .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-sm .accordion-link {
+    display: block;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .responsive-tabs-container.accordion-md .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-md .accordion-link {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-tabs-container.accordion-lg .nav-tabs {
+    display: none;
+  }
+  .responsive-tabs-container.accordion-lg .accordion-link {
+    display: block;
+  }
+}
+
+
+

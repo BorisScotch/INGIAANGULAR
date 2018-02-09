@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+<head>
+	<title>INGIA ANGULAR</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="theme-color" content="#384c5f">
+	<meta name="msapplication-TileColor" content="#384c5f">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="msapplication-navbutton-color" content="#384c5f">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#384c5f">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Soluciones para tu negocio o industria">
+	<meta name="keywords" content="Soluciones para tu negocio o industria,soluciones tecnologicas para tu negocio o industria,impresoras 3d,impresion 3d,service impresoras 3d,perfileria cnc, sliders, barras soportadoras,">
+	<meta property="og:image" itemprop="image" content="https://borisscotch.github.io/INGIAANGULAR/imagenes/impresora-i3.jpg" />
+	<meta property="og:image" content="https://borisscotch.github.io/INGIAANGULAR/imagenes/impresora-i3.jpg" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="INGIA ANGULAR">
+	<meta name="twitter:description" content="Soluciones para tu negocio o industria">
+	<meta name="twitter:image" content="https://borisscotch.github.io/INGIAANGULAR/imagenes/impresora-i3.jpg">
+
+
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/mediaquerys.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="CSS/aos.css">
+	<link rel="icon" type="image/svg+xml" href="imagenes/fav-icon-ingia.svg">
+	<link rel="icon" type="image/png" href="imagenes/fav-icon-ingia.png">
+
+
+	<script type="text/javascript" src="JS/jquery-2.1.4.js"></script>
+	<script type="text/javascript" src="JS/angular.js"></script>
+	<script type="text/javascript" src="JS/angular-route.js"></script>
+	<script type="text/javascript" src="JS/angular-touch.min.js"></script>
+	<script src="JS/bootstrap.min.js"></script>
+	<script src="JS/ui-bootstrap-tpls.min.js"></script>
+	<script type="text/javascript" src="JS/aos.js"></script>
+	<script src="https://use.fontawesome.com/e379886307.js"></script>
+	<script type="text/javascript" src="JS/main.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="JS/jquery.bcSwipe.min.js"></script>
+	<script type="text/javascript" src="js/iframeResizer.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function() {    
+    	var scroll = $(window).scrollTop();
+    	if (scroll >= 60) {
+	        $(".navbar").addClass("navbar-transparency");
+	        $(".whenontop-bg").attr('src','imagenes/logo-md-lg-white.png');
+	        $(".whenontop-sm").attr('src','imagenes/logo-sm-xs-white.png');
+	        $(".top-navbar").addClass("navbar-transparency");
+	        $(".dropdown-menu").addClass("navbar-transparency");
+	        $(".navbar-toggle").addClass("navbar-transparency");
+	    	} else {
+		    $(".navbar").removeClass("navbar-transparency");
+		    $(".top-navbar").removeClass("navbar-transparency");
+		    $(".dropdown-menu").removeClass("navbar-transparency");
+		    $(".whenontop-bg").attr('src','imagenes/logo-md-lg.png');
+		    $(".whenontop-sm").attr('src','imagenes/logo-sm-xs.png');
+		    $(".navbar-toggle").removeClass("navbar-transparency");
+	    	}
+		});	
+	</script>
+</head>
+
+<body>
+<!-- NAVBAR -->
+	<nav class="navbar navbar-fixed-top navbar-default nav-down">
+		<div class="top-navbar hidden-xs">
+			<div class="container-fluid">
+				<div class="container">
+					<a class="navbar-brand img-center visible-md visible-lg" href="#/"  style="padding: 7.5px;">					
+						<img src="imagenes/logo-md-lg.png" class="img-center whenontop-bg">						
+					</a>
+					<ul class="nav navbar-nav navbar-right">
+						
+						<li>
+							<a href="#/sobrenosotros">Sobre nosotros</a>
+						</li>
+						<li>
+							<a href="#/contacto">Contactanos</a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.facebook.com/INGIAsrl/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://www.youtube.com/channel/UCVx2L5rxY1qNv3gskMht8KA/featured"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<a target="_blank" href="https://ingia.mitiendanube.com/"><i class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></i></a>
+						</li>
+						<li>
+							<form class="navbar-form navbar-left"  method="GET" action="//www.google.com/search">
+								<div class="form-group">
+									<input type="hidden" name="ie" value="UTF-8">
+									<input type="hidden" name="oe" value="UTF-8">
+
+									<input type="text" placeholder="Buscar" value="" name="q" title="" class="search-typing">
+
+									<input type="hidden" name="domains" value="https://www.ingia.com.ar" class="fill-it">
+									<input type="hidden" name="sitesearch" value="https://www.ingia.com.ar" class="fill-it">
+								</div>
+								<button target="_blank" type="submit" class="btn btn-default btbuscar"><i class="fa fa-search"></i></button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        <div class="container-fluid">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar top-bar"></span>
+					<span class="icon-bar middle-bar"></span>
+					<span class="icon-bar bottom-bar"></span>
+				</button>
+				<a class="navbar-brand img-center visible-xs visible-sm " href="#/"  style="padding: 7.5px;">
+					
+					<img src="imagenes/logo-sm-xs.png" class="img-responsive img-center whenontop-sm">
+					
+				</a>
+			</div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right bottom-navbar">
+                	<li>
+						<a target="_blank" href="https://ingia.mitiendanube.com/">Tienda Online</a>
+					</li>
+                    <li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="">Productos</a>
+						<ul class="dropdown-menu">
+							<li><a href="#/impresoras3d">Impresoras 3D</a></li>
+							<li><a href="#/routers">fresadoras - routers CNC</a></li>
+							<li><a href="#">Sliders</a></li>
+							<li><a href="#">Perfileria CNC</a></li>
+							<li><a href="#">Barras soportadas</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="">Industria</a>
+						<ul class="dropdown-menu">
+							<li><a href="#/nuestrosservicios">Nuestros servicios</a></li>
+							<li><a href="#/proyectos-realizados">proyectos realizados</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="#/soporte">Soporte</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+		</div>
+    </nav>
+
+<!-- END-NAVBAR -->
+<!-- CONTENT -->
+	
+	<div ng-view autoscroll>
+
+	</div>
+<!-- END-CONTENT -->
+<!-- FOOTER -->	
+	<div class="footer">
+	    	<div class="container">
+	    		<div class="row">
+		    		<div style="margin-top: 30px;" class="col-md-6">
+		    			<ul>
+			    			<li><a class="hvr-underline-from-left" href="#/sobrenosotros">Sobre nosotros</a></li>
+			    			<li><a class="hvr-underline-from-left" href="#/contacto">Contactanos</a></li>
+			    			<li><a class="hvr-underline-from-left" href="#">Novedades</a></li>
+		    			</ul>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<img class="pull-right" src="imagenes/cropped-cropped-Logo-Ingia-p-fondonegro.png" height="100px" style="padding-top:  30px;">
+		    		</div>
+	    		</div>
+	    		<hr>
+	    		<div class="row">
+		    		<div class="col-md-6">
+		    			<p>INGIA © Copyright 2017. Todos los derechos reservados.</p>
+		    		</div>
+		    		<div class="col-md-6">
+		    			<p class="pull-right">Terminos y Condiciones.</p>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>
+<!-- END-FOOTER -->
+
+<script type="text/javascript">
+	document.querySelector( ".navbar-toggle" ).addEventListener( "click", function() {
+  this.classList.toggle( "active" );
+});
+</script>
+<script type="text/javascript">
+	$('.navbar-toggle').on("click", function(){
+    $('#pushContent').slideToggle();
+});
+</script>
+<script type="text/javascript">
+	$('.carousel').bcSwipe({ threshold: 50 });
+</script>
+<script type="text/javascript">
+(function($) {
+
+$('#search-button').on('click', function(e) {
+if($('#search-input-container').hasClass('hdn')) {
+  e.preventDefault();
+  $('#search-input-container').removeClass('hdn')
+  return false;
+}
+});
+
+$('#hide-search-input-container').on('click', function(e) {
+e.preventDefault();
+$('#search-input-container').addClass('hdn')
+return false;
+});
+
+})(jQuery);
+</script>
+</html>
