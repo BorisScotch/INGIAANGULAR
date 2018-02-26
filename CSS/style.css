@@ -342,6 +342,15 @@ font-size: 20px;
 .indicators-main.carousel-indicators li {
   border-color: rgb(56, 76, 95);
 }
+.carrou-5,
+.carrou-6 {
+  margin-top: 50px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
 /* Hamburguer to X animation */
 
 .navbar-toggle {
