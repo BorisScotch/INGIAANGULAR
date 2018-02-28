@@ -32,9 +32,13 @@ myApp.config(function ($routeProvider) {
 		templateUrl: 'pages/proyectos-realizados.html',
 		controller: 'prController'
 	})
-				.when('/soporte', {
+		.when('/soporte', {
 		templateUrl: 'pages/soporte.html',
 		controller: 'soporteController'
+	})
+		.when('/barras-soportadoras', {
+		templateUrl: 'pages/barras-soportadoras.html',
+		controller: 'barrasController'
 	})
 });
 
@@ -65,5 +69,8 @@ myApp.controller('prController', ['$scope', '$log',  function($scope, $log){
 
 }]);
 myApp.controller('soporteController', ['$scope', '$log',  function($scope, $log){
+
+}]);
+myApp.controller('barrasController', ['$scope', '$log',  function($scope, $log){
 
 }]);
