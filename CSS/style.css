@@ -743,3 +743,19 @@ text-align: justify;
 .navbar-form.navbar-left.ng-pristine.ng-valid .btn.btn-default {
   padding:0px 4px;
 }
+
+/* barras-soportadoras */
+
+.barras-soportadoras h1 {
+ padding-top: 80px;
+ padding-bottom: 25px;
+}
+.barras-img {
+  padding: 25px 0 ;
+}
+#medidas-sesenta {
+  opacity: 0;
+}
+#medidas-cuarenta {
+  opacity: 0;
+}
