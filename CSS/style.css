@@ -761,7 +761,10 @@ text-align: justify;
 #medidas-cuarenta {
   opacity: 0;
 }
-
+.barras-soportadoras p {
+  line-height: 2em;
+  font-size: 18px;
+}
 /* controlador amadeus */
 
 .controlador-amadeus h1 {
