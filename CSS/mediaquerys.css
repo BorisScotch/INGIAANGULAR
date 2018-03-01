@@ -292,7 +292,9 @@
         top: -48px;
     }
 
-
+.perfileria-cnc .perfileria-cnc-texto {
+  column-count: 1;
+}
  
 
 
