@@ -8,9 +8,11 @@ body {
 
 ::selection {
     color: #fff;
-    background: rgb(56, 76, 95);;
+    background: rgb(56, 76, 95);
 }
-
+.blue-border {
+  border-color: rgb(56, 76, 95);
+}
 .img-center {
   margin: 0 auto;
   display: block;
@@ -796,4 +798,22 @@ text-align: justify;
   padding: 30px;
   margin-bottom: 35px;
   border-radius: 5px;
+}
+
+/* perfileria CNC */ 
+
+.perfileria-cnc h1 {
+  padding-top: 80px;
+}
+.perfileria-cnc .perfileria-cnc-texto {
+  line-height: 2em;
+  font-size: 18px;
+  text-align: justify;
+  column-count: 2;
+  column-gap: 40px;
+  padding-top: 25px;
+}
+.perfileria-cnc .perfileria-cnc-texto-abajo {
+  margin-top: 35px;
+  margin-bottom: 45px;
 }
