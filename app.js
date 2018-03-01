@@ -40,6 +40,10 @@ myApp.config(function ($routeProvider) {
 		templateUrl: 'pages/barras-soportadoras.html',
 		controller: 'barrasController'
 	})
+		.when('/control-de-motores', {
+		templateUrl: 'pages/control-de-motores.html',
+		controller: 'controldemotoresController'
+	})
 });
 
 myApp.controller('mainController', ['$scope', '$log',  function($scope, $log){
@@ -72,5 +76,8 @@ myApp.controller('soporteController', ['$scope', '$log',  function($scope, $log)
 
 }]);
 myApp.controller('barrasController', ['$scope', '$log',  function($scope, $log){
+
+}]);
+myApp.controller('controldemotoresController', ['$scope', '$log',  function($scope, $log){
 
 }]);
