@@ -44,6 +44,10 @@ myApp.config(function ($routeProvider) {
 		templateUrl: 'pages/control-de-motores.html',
 		controller: 'controldemotoresController'
 	})
+		.when('/perfileria-cnc', {
+		templateUrl: 'pages/perfileria-cnc.html',
+		controller: 'perfileriacncController'
+	})
 });
 
 myApp.controller('mainController', ['$scope', '$log',  function($scope, $log){
@@ -79,5 +83,8 @@ myApp.controller('barrasController', ['$scope', '$log',  function($scope, $log){
 
 }]);
 myApp.controller('controldemotoresController', ['$scope', '$log',  function($scope, $log){
+
+}]);
+myApp.controller('perfileriacncController', ['$scope', '$log',  function($scope, $log){
 
 }]);
