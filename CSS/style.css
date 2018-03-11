@@ -856,3 +856,7 @@ text-align: justify;
   margin-top: 35px;
   margin-bottom: 45px;
 }
+.heading-blog h1 {
+  padding-top: 100px;
+  text-align: center;
+}
