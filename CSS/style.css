@@ -233,8 +233,7 @@ a:focus, a:hover {
     background-color: rgba(146,146,146,0.1);
 }
 .dropdown-menu {
-  background-color: rgb(146,146,146);
-  background-color: rgba(146,146,146,0.1);
+  background-color: #E9E9E9;
   -webkit-box-shadow: none; */
     /* box-shadow:  none; */
 
