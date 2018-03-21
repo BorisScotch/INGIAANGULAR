@@ -312,7 +312,9 @@
 .circulos ol.soluciones.carousel-indicators li {
   margin-bottom: 10px;
 }
-
+.jumbo-produ {
+    margin-top: 5px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .responsive-tabs-container.accordion-sm .nav-tabs {
