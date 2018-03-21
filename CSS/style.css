@@ -522,6 +522,8 @@ font-size: 20px;
 /* SOBRE NOSOTROS*/
 .introduccion {
   padding: 35px 0px;
+  line-height: 2em;
+  font-size: 16px;
 }
 .introduccion p:last-child {
   font-size: 1.4em;
